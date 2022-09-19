@@ -1,0 +1,3 @@
+name: HubCommand
+version: '${project.version}'
+main: ca.sperrer.bungee.hubcommand.HubCommand

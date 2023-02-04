@@ -7,5 +7,6 @@ public final class HubCommand extends Plugin {
     public void onEnable() {
         getLogger().info("has loaded!");
         getProxy().getPluginManager().registerCommand(this, new Hub());
+        getProxy().getPluginManager().registerCommand(this, new Lobby());
     }
 }
